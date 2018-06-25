@@ -14,7 +14,8 @@ document.getElementById('image4').src = 'assets/images/image4_2.jpg';
 function changeImage5(){
 document.getElementById('image5').src = 'assets/images/image5_2.jpg';
 }
-// test déclaration de fonction unique
-function changeImage(){
-
+/* test déclaration de fonction unique () ce que l'on écrit à l'interieur : parametre de fonction
+function changeImage(img){
+document.getElementById(img).src ='assets/images/' + img + '_2.jpg';
 }
+*/
